@@ -1,6 +1,5 @@
 # Astro Turborepo Template
 
-
 ## References
 
 - Blog theme [onwidget/astrowind](https://github.com/onwidget/astrowind)
