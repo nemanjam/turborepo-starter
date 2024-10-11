@@ -9,9 +9,9 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "dev:nmc": "turbo run @apps/nemanjamiticcom#dev",
-    "build:nmc": "turbo run @apps/nemanjamiticcom#build",
-    "sync:nmc": "turbo run @apps/nemanjamiticcom#sync",
+    "dev:next-app": "turbo run @apps/next-app#dev",
+    "build:next-app": "turbo run @apps/next-app#build",
+    "sync:next-app": "turbo run @apps/next-app#sync",
     "manypkg:check": "manypkg check",
     "manypkg:fix": "manypkg fix",
     "lint": "turbo run lint",

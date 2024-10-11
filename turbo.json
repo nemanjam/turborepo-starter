@@ -12,16 +12,16 @@
       "cache": false,
       "persistent": true
     },
-    "@apps/nemanjamiticcom#dev": {
+    "@apps/next-app#dev": {
       "cache": false,
       "persistent": true
     },
-    "@apps/nemanjamiticcom#build": {
+    "@apps/next-app#build": {
       "cache": false,
       "outputs": [],
       "env": ["NODE_ENV", "SITE_URL"]
     },
-    "@apps/nemanjamiticcom#sync": {
+    "@apps/next-app#sync": {
       "cache": false,
       "persistent": true
     },
