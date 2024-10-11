@@ -1,5 +1,5 @@
 {
-  "name": "astro-turborepo-template",
+  "name": "turborepo-starter",
   "version": "0.0.1",
   "private": true,
   "workspaces": [
@@ -18,12 +18,8 @@
     "test": "turbo run test",
     "format": "turbo run format",
     "check-types": "turbo run check-types",
-    "print:nm": "find . -name 'node_modules' -type d -prune -print",
-    "print:t": "find . -name '.turbo' -type d -prune -print",
-    "print": "yarn print:nm & yarn print:t",
-    "clean:nm": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",
-    "clean:t": "find . -name '.turbo' -type d -prune -exec rm -rf '{}' +",
-    "clean": "yarn clean:nm & yarn clean:t"
+    "clean:dry-run": "./scripts/clean.sh all --dry-run",
+    "clean": "./scripts/clean.sh all"
   },
   "devDependencies": {
     "@manypkg/cli": "^0.21.4",
